@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 960px;
+            margin: 0 auto;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        .clear {
+            clear: both;
+        }
+        #aside { 
+            float: left;
+            width: 480px;
+
+        }
+        #section {
+            float: right;
+            width: 480px;
+        }
+        .link-container {
+             text-align:right ;
+         }
+        a{
+            margin-left :10px ;
+        }
+        a:link, a:visited{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover{
+           background-color:rgb(94, 94, 94) ; 
+           color:white ;
+         }
+        #turtle{
+           background-color:green ;
+           color:white ;
+         }
+         #turtle:hover{
+           background-color:rgb(53, 167, 0) ;
+           color:white ;
+         }
+         .main-text {
+            float: left;
+            color:white ;
+        }
+        h1 {
+            text-align: center;
+            border: 2px solid white;
+            padding: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+        a[href="3.html"] {
+           color:green ;
+       }
+       #poto{
+            float: right;
+        }
+        #poto a:hover {
+            background-color: transparent;
+            color: white;
+        }
+        #poto02{
+            float: left;
+        }
+        #poto02 a:hover {
+            background-color: transparent;
+            color: white;
+        }
+                #button{
+            float: left;
+        }
+        #button{
+            float: left;
+        }
+        table, th, td {
+        border: 2px solid white;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="button">
+            <a href="index.html">
+                <img src="button.png" style="width: 60px;">
+            </a>
+        </div>
+    <div class="link-container">
+    <a href="1.html"> 설명 </a>
+    <a href="2.html"> 소개 </a>
+    <a href="3.html"> 상품 </a>
+    <a href="4.html"> 관리 </a>
+    <a id="turtle" href="5.html"> 거북이 </a></div></div>
+        
+        <div>
+            <h1>상품판매</h1>
+        </div>
+        <br>
+        <h2>거북이에게 필요한 상품들</h2> <br>
+        <br><br>
+        <table style="width:100%;">
+            <tr>
+                <th colspan="3">상품</th>
+            </tr>
+            <tr>
+                <th><img src="food.jpg"></th>
+                <th><img src="home.jpg"></th>
+                <th><img src="light.jpg"></th>
+            </tr>
+            <tr>
+                <th>사료</th>
+                <th>수조</th>
+                <th>조명</th>
+            </tr>
+            <tr>
+                <th colspan="3">상세 페이지</th>
+            </tr>
+            <tr>
+                <th>
+                    <form><br>
+                        <a href="3-1.html">
+                            <button type="button">사료 이동</button>
+                        </a>
+                    </form>
+                </th>
+                <th>
+                    <form><br>
+                        <a href="3-2.html">
+                            <button type="button">수조 이동</button>
+                        </a>
+                    </form>
+                </th>
+                <th>
+                    <form><br>
+                        <a href="3-3.html">
+                            <button type="button">조명 이동</button>
+                        </a>
+                    </form>
+                </th>
+            </tr>
+        </table>
+
+
+
+        <br><br><br><br><br><br><br>
+     
+        <div id="poto02">
+           <a href="index.html">
+               <img src="back.jpg" style="width: 60px;">
+           </a>
+   
+       </div>
+       <div id="poto">
+           <a href="3.html">
+               <img src="top01.jpg" style="width: 60px;">
+           </a>
+       </div>
+</body>
+</html>
